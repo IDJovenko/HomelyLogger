@@ -9,7 +9,6 @@
 #include "ILogEnricher.hpp"
 #include "ILogFilter.hpp"
 #include "ILogSink.hpp"
-#include "LogLevel.hpp"
 
 namespace homelylog {
 
