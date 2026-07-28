@@ -9,6 +9,7 @@ target_include_directories(homelylog PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/logger
     ${CMAKE_CURRENT_SOURCE_DIR}/log_manager
+    ${CMAKE_CURRENT_SOURCE_DIR}/enricher
 )
 target_include_directories(homelylog PRIVATE
 )
