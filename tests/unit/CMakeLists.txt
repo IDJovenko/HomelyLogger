@@ -15,6 +15,7 @@ target_include_directories(homelylog_unit_tests PRIVATE
 target_link_libraries(homelylog_unit_tests PRIVATE
   homelylog
   GTest::gtest
+  GTest::gmock
   GTest::gtest_main
   Threads::Threads
 )
