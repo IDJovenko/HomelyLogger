@@ -3,6 +3,7 @@ find_package(GTest CONFIG REQUIRED)
 
 add_executable(homelylog_unit_tests
   enricher/EnricherChaneBaseTest.cpp
+  enricher/BaseEnricherTest.cpp
 )
 
 target_compile_features(homelylog_unit_tests PRIVATE cxx_std_23)
