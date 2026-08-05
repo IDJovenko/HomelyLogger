@@ -6,7 +6,7 @@ add_executable(homelylog_unit_tests
   StubTest.cpp
 )
 
-target_compile_features(homelylog PRIVATE cxx_std_23)
+target_compile_features(homelylog_unit_tests PRIVATE cxx_std_23)
 
 target_include_directories(homelylog_unit_tests PRIVATE
   ${CMAKE_CURRENT_SOURCE_DIR}/
